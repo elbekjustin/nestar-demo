@@ -1,5 +1,5 @@
-import { Stack } from "@mui/material";
-import Head from "next/head";
+import { Stack } from '@mui/material';
+import Head from 'next/head';
 
 const withLayoutBasic = (Component: any) => {
   return (props: any) => {
@@ -9,13 +9,13 @@ const withLayoutBasic = (Component: any) => {
           <title>Nestar</title>
         </Head>
         <Stack id="pc-wrap">
-          <Stack sx={{ background: "#81c784" }}>Header Basic</Stack>
+          <Stack sx={{ background: '#81c784' }}>Header Basic</Stack>
 
-          <Stack id={"main"}>
+          <Stack id={'main'}>
             <Component {...props} />
           </Stack>
 
-          <Stack sx={{ background: "#a1887f" }}>Footer</Stack>
+          <Stack sx={{ background: '#a1887f' }}>Footer</Stack>
         </Stack>
       </>
     );
