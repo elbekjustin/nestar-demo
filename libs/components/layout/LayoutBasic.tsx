@@ -23,7 +23,7 @@ const withLayoutBasic = (Component: any) => {
             style={{
               backgroundImage: `url(/img/banner/properties.png)`,
               backgroundSize: "cover",
-              // boxShadow: "inset 10px 40px 150px 40px rgb(24 22 36)",
+              boxShadow: "inset 10px 40px 150px 40px rgb(24 22 36)",
             }}
           >
             <Stack className={"container"}>
